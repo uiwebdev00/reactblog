@@ -7,7 +7,7 @@ export default function Nav() {
         <>
             <nav className="navbar navbar-expand-lg navbar-dark bg-success">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">React Blog App</a>
+                    <Link className="navbar-brand" to="/">React Blog App</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon" />
                     </button>
@@ -17,7 +17,7 @@ export default function Nav() {
                                 <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/create">Create Blog</Link>
+                                <Link className="nav-link active" to="/create">Create Blog</Link>
                             </li>
                             
                         </ul>

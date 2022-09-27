@@ -7,7 +7,7 @@ import Nav from "./Nav";
 function App() {
   return (
 
-    <div className="bg-dark">
+    <>
     
 
         <Nav></Nav>
@@ -22,7 +22,7 @@ function App() {
 
      
 
-    </div>
+    </>
   );
 }
 
